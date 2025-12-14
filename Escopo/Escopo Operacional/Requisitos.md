@@ -36,19 +36,19 @@ RF-T.1 | Criação de tarefa | O usuário deverá ter a opção de criar tarefas
 RF-T.2 | Visualização de tarefas | O usuário deverá ter a opção de visualizar suas tarefas (uma de cada vez ou todas de uma vez), em qualquer momento e qualquer dispositivo
 
 ---
-RF-T.3 | Atualização de tarefa | O usuário deverá ter a opção de atualizar suas tarefas (uma de cada vez) em qualquer momento e qualquer dispositivo
+RF-T.3 | Atualização de tarefa | O usuário deverá ter a opção de editar as informações de suas tarefas (uma de cada vez) em qualquer momento e qualquer dispositivo
 
 ---
-RF-T.4 | Criação de tarefa | O usuário deverá ter a opção de deletar suas tarefas (uma de cada vez) em qualquer momento e qualquer dispositivo
+RF-T.4 | Apagamento de tarefa | O usuário deverá ter a opção de deletar suas tarefas (uma de cada vez) em qualquer momento e qualquer dispositivo
 
 ---
 RF-T.5 | Agendamento | O usuário deverá ter a opção de agendar certa tarefa, atribuir o nome e o horário, além de decidir o período de quando cada tarefa deverá ser feita (diariamente, 1 vez/semana, 1 vez/mes, etc) ou decidir marcar os dias para quando será feita (sem ser periódicas)
 
 ---
-RF-T.6 | Lembrete | O sistema deverá lembrar regularmente ao usuário (por meio de notificações) para quando ele terá que realizar certa tarefa (horário, dia da semana, mês e ano)
+RF-T.6 | Personalização | O usuário deverá ter a opção de personalizar a tarefa, adicionando nome, cor, tipo da tarefa (com nome e cor para o tipo) e adicionar nota na tarefa.
 
 ---
-RF-T.7 | Opções de tarefas | O sistema deverá ter a opção de marcar quais tipos de tarefas o usuário realizará (compras, limpeza da casa, limpeza da louça, etc.)
+RF-T.7 | Lembrete | O sistema deverá lembrar regularmente ao usuário (por meio de notificações) para quando ele terá que realizar certa tarefa (horário, dia da semana, mês e ano)
 
 ---
 RF-T.8 | Lista de compras | O sistema deverá ter a opção de adicionar uma lista de compras, caso o usuário marque a opção "Compras"
