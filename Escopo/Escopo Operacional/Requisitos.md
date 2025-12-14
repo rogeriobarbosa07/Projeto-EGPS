@@ -30,19 +30,28 @@ RF-I.3 | Multiformatos | O sistema deve ter acesso para vários formatos (aplica
 ID | Requisito Funcional | Descrição Detalhada
 
 ---
-RF-T.1 | Criação de tarefa | O usuário deverá ter a opção de criar uma tarefa em qualquer momento e qualquer dispositivo
+RF-T.1 | Criação de tarefa | O usuário deverá ter a opção de criar tarefas (uma de cada vez), em qualquer momento e qualquer dispositivo
 
 ---
-RF-T.2 | Agendamento | O usuário deverá ter a opção de agendar certa tarefa, atribuir o nome e o horário, além de decidir o período de quando cada tarefa deverá ser feita (diariamente, 1 vez/semana, 1 vez/mes, etc) ou decidir marcar os dias para quando será feita (sem ser periódicas)
+RF-T.2 | Visualização de tarefas | O usuário deverá ter a opção de visualizar suas tarefas (uma de cada vez ou todas de uma vez), em qualquer momento e qualquer dispositivo
 
 ---
-RF-T.3 | Lembrete | O sistema deverá lembrar regularmente ao usuário (por meio de notificações) para quando ele terá que realizar certa tarefa (horário, dia da semana, mês e ano)
+RF-T.3 | Atualização de tarefa | O usuário deverá ter a opção de atualizar suas tarefas (uma de cada vez) em qualquer momento e qualquer dispositivo
 
 ---
-RF-T.4 | Opções de tarefas | O sistema deverá ter a opção de marcar quais tipos de tarefas o usuário realizará (compras, limpeza da casa, limpeza da louça, etc.)
+RF-T.4 | Criação de tarefa | O usuário deverá ter a opção de deletar suas tarefas (uma de cada vez) em qualquer momento e qualquer dispositivo
 
 ---
-RF-T.5 | Lista de compras | O sistema deverá ter a opção de adicionar uma lista de compras, caso o usuário marque a opção "Compras"
+RF-T.5 | Agendamento | O usuário deverá ter a opção de agendar certa tarefa, atribuir o nome e o horário, além de decidir o período de quando cada tarefa deverá ser feita (diariamente, 1 vez/semana, 1 vez/mes, etc) ou decidir marcar os dias para quando será feita (sem ser periódicas)
+
+---
+RF-T.6 | Lembrete | O sistema deverá lembrar regularmente ao usuário (por meio de notificações) para quando ele terá que realizar certa tarefa (horário, dia da semana, mês e ano)
+
+---
+RF-T.7 | Opções de tarefas | O sistema deverá ter a opção de marcar quais tipos de tarefas o usuário realizará (compras, limpeza da casa, limpeza da louça, etc.)
+
+---
+RF-T.8 | Lista de compras | O sistema deverá ter a opção de adicionar uma lista de compras, caso o usuário marque a opção "Compras"
 
 ---
 
@@ -78,13 +87,22 @@ ID | Requisito Funcional | Descrição Detalhada
 RF-C.1 | Central de ajuda | O sistema deverá fornecer uma central de ajuda online ao usuário
 
 ---
-RF-C.2 | Dúvidas Frequentes | A central de ajuda deverá ter uma aba de dúvidas que ocorrem com frequência entre os usuários
+RF-C.2 | Aba de seções | A central de ajuda deverá ter uma aba para visualizar as diversas seções da central
 
 ---
-RF-C.3 | Pesquisa | A central de ajuda deverá ter uma aba de pesquisa para as diversas seções da central
+RF-C.3 | Pesquisa | A central de ajuda deverá ter uma aba de pesquisa para os usuários pesquisarem e selecionarem diretamente os tópicos desejados (dúvidas, questões, seções, etc.)
 
 ---
-RF-C.4 | Apoio Real | A central de ajuda deverá ter uma seção para conversar com alguém do suporte da aplicação
+RF-C.4 | Dúvidas Frequentes | A central de ajuda deverá ter uma aba de dúvidas que ocorrem com frequência entre os usuários
 
 ---
-RF-C.5 | Chatbot | A central de ajuda deverá ter integração com o chatbot do módulo de IA
+RF-C.5 | Login e recuperação de senha | A central de ajuda deverá ter uma aba com dúvidas e questões relacionadas ao login e recuperação de senha
+
+---
+RF-C.6 | Gerenciamento de Conta | A central de ajuda deverá ter uma aba sobre dúvidas e questões relacionadas ao gerenciamento da conta (editar informações, como cadastrar e usar a conta, etc.)
+
+---
+RF-C.7 | Privacidade e Segurança | A central de ajuda deverá ter uma aba sobre dúvidas e questões relacionadas à privacidade e segurança da conta, com dicas de segurança sobre como proteger a conta, proteger informações pessoais, proteger informações de login, etc.
+
+---
+RF-C.8 | Chatbot | A central de ajuda deverá ter integração com o chatbot do módulo de IA
