@@ -171,10 +171,10 @@ Confiabilidade | RNF-C.1 | O CRUD de tarefas deve ser feito com perguntas antes 
 Confiabilidade | RNF-C.2 | As previsões de respostas da IA do chatbot devem ter uma boa taxa de acerto (para as perguntas e respostas que NÃO são pré-estabelecidas)
 
 ---
-Confiabilidade | RNF-C.2 | As sugestões e notificações da IA (RF-IA.3 e RF-IA.4) devem ter uma boa taxa de acerto para o que ela se propõe a fazer nesses requisitos
+Confiabilidade | RNF-C.3 | As sugestões e notificações da IA (RF-IA.3 e RF-IA.4) devem ter uma boa taxa de acerto para o que ela se propõe a fazer nesses requisitos
 
 ---
-Confiabilidade | RNF-C.3 | O CRUD de usuários deve ser feito com perguntas antes de serem confirmadas as alterações na base de dados
+Confiabilidade | RNF-C.4 | A criação e desativação de usuários deve ser feito com perguntas antes de serem confirmadas as alterações na base de dados
 
 ---
 Segurança | RNF-S.1 | As informações de usuário devem possuir boa integridade e segurança de dados
