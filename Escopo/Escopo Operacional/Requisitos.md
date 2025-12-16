@@ -112,34 +112,25 @@ RF-C.8 | Chatbot | A central de ajuda deverá ter integração com o chatbot do 
 ID | Requisito Funcional | Descrição Detalhada
 
 ---
-RF-G.1 | Criação de Moderadores e Gerentes | O sistema deve permitir aos moderadores do sistema, a criação de usuários gerentes ou moderadores
+RF-G.1 | Criação de Gerentes | O sistema deve permitir aos gerentes do sistema, a criação de outros usuários gerentes
 
 ---
 RF-G.2 | Criação de Usuários | O sistema deve permitir aos clientes do sistema, a criação de usuários comuns
 
 ---
-RF-G.3 | Atualização de Informações | O sistema deve permitir a atualização das informações da conta de qualquer usuário (Moderador, Gerente e Usuário Comum) em qualquer momento e qualquer dispositivo. Os usuários possuem permissão de alterar apenas as informações de suas próprias contas
+RF-G.3 | Atualização de Informações | O sistema deve permitir a atualização das informações da conta de qualquer usuário (Gerente e Usuário Comum) em qualquer momento e qualquer dispositivo. Os usuários só podem alterar as informações de suas próprias contas.
 
 ---
-RF-G.4 | Desativação de Usuário Comum | O sistema deve permitir aos moderadores e gerentes, a desativação de contas de usuários comuns, desde que haja um motivo e que avise ao usuário, o motivo da desativação.
+RF-G.4 | Desativação de Usuário Comum | O sistema deve permitir aos gerentes, a desativação de contas de usuários comuns, desde que haja um motivo e que avise ao usuário, o motivo da desativação.
 
 ---
-RF-G.5 | Desativação de Gerente | O sistema deve permitir aos moderadores, a desativação de contas de gerentes, desde que haja um motivo e avise ao gerente, o motivo da desativação
+RF-G.5 | Desativação de Conta Própria | O sistema deve permitir aos usuários, a desativação de suas próprias contas
 
 ---
-RF-G.6 | Desativação de Conta Própria | O sistema deve permitir aos usuários, a desativação de suas próprias contas
+RF-G.6 | Deleção de Tarefas de Usuário Comum | O sistema deve permitir aos gerentes, a deleção de tarefas criadas por usuários comuns, desde que haja um motivo e que avise ao usuário, o motivo da deleção,
 
 ---
-RF-G.7 | Deleção de Tarefas de Usuário Comum | O sistema deve permitir aos moderadores e gerentes, a deleção de tarefas criadas por usuários comuns, desde que haja um motivo e avise ao gerente, o motivo da desativação
-
----
-RF-G.8 | Deleção de Tarefas de Gerente | O sistema deve permitir aos moderadores, a deleção de tarefas criadas por gerentes, desde que haja um motivo e avise ao gerente, o motivo da desativação
-
----
-RF-G.9 | Desativação da IA para Usuário Comum | O sistema deve permitir aos moderadores e gerentes, a desativação da IA para usuários comuns, desde que haja um motivo e que avise ao usuário, o motivo da desativação.
-
----
-RF-G.10 | Desativação da IA para Gerente | O sistema deve permitir aos moderadores, a desativação da IA para gerentes, desde que haja um motivo e avise ao gerente, o motivo da desativação
+RF-G.7 | Desativação da IA para Usuário Comum | O sistema deve permitir aos gerentes, a desativação da IA para usuários comuns, desde que haja um motivo e que avise ao usuário, o motivo da desativação.
 
 ### 3. Requisitos Não Funcionais
 
