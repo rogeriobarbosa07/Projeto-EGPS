@@ -10,22 +10,8 @@
 - Desenvolver uma plataforma robusta e responsiva para ajudar os usuários a se organizarem com suas tarefas do dia a dia, a fim de melhorar a produtividade e a performance, além de ajudar a lembrar de manter a manutenção de seus lares e moradias, tudo de maneira automatizada.
 
 ### 2. Requisitos Funcionais (Módulos)
-### 2.1 Módulo de Internet
----
-ID | Requisito Funcional | Descrição Detalhada
 
----
-RF-I.1 | Salvar na Nuvem | O sistema deve ter a opção de backup de todas as suas informações de sua conta na nuvem
-
----
-RF-I.2 | Multidispositivos | O sistema deve ter acesso em vários dispositivos (mobile, desktop, etc.)
-
----
-RF-I.3 | Multiformatos | O sistema deve ter acesso para vários formatos (aplicativo, web, etc.)
-
----
-
-### 2.2 Módulo de Tarefas
+### 2.1 Módulo de Tarefas
 ---
 ID | Requisito Funcional | Descrição Detalhada
 
@@ -55,7 +41,7 @@ RF-T.8 | Lista de compras | O sistema deverá ter a opção de adicionar uma lis
 
 ---
 
-### 2.3 Módulo de IA
+### 2.2 Módulo de IA
 ---
 ID | Requisito Funcional | Descrição Detalhada
 
@@ -79,7 +65,7 @@ RF-IA.6 | Chatbot | O sistema deverá ter um chatbot online para dúvidas do usu
 
 ---
 
-### 2.4 Módulo de Central de Ajuda
+### 2.3 Módulo de Central de Ajuda
 ---
 ID | Requisito Funcional | Descrição Detalhada
 
@@ -107,7 +93,7 @@ RF-C.7 | Privacidade e Segurança | A central de ajuda deverá ter uma aba sobre
 ---
 RF-C.8 | Chatbot | A central de ajuda deverá ter integração com o chatbot do módulo de IA
 
-### 2.5 Módulo de Gerência de Usuários
+### 2.4 Módulo de Gerência de Usuários
 ---
 ID | Requisito Funcional | Descrição Detalhada
 
@@ -180,13 +166,17 @@ Manutenibilidade | RNF-M.1 | O sistema deve possuir facilidade de adaptações e
 Escalabilidade | RNF-E.1 | O sistema deve suportar altas cargas de armazenamento e processamento de tarefas de usuários e usos da IA, sem comprometer sua estabilidade
 
 ---
-Portabilidade | RNF-P.1 | O acesso ao sistema deve possuir compatibilidade com diferentes tipos de dispositivos (Celular, Tablet, Desktop, Laptop, etc.)
+Portabilidade | RNF-P.1 | O sistema deve possuir serviços hospedados em nuvem
 
 ---
-Portabilidade | RNF-P.2 | O acesso ao sistema deve possuir compatibilidade com navegadores modernos (Chrome, Firefox, Opera, Edge, etc.)
+
+Portabilidade | RNF-P.2 | O acesso ao sistema deve possuir compatibilidade com diferentes tipos de dispositivos (Celular, Tablet, Desktop, Laptop, etc.)
 
 ---
-Portabilidade | RNF-P.3 | O acesso ao sistema deve possuir compatibilidade com diferentes formatos de aplicação (Apps de Instalação e Web)
+Portabilidade | RNF-P.3 | O acesso ao sistema deve possuir compatibilidade com navegadores modernos (Chrome, Firefox, Opera, Edge, etc.)
+
+---
+Portabilidade | RNF-P.4 | O acesso ao sistema deve possuir compatibilidade com diferentes formatos de aplicação (Apps de Instalação e Web)
 
 ---
 
