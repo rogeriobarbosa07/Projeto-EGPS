@@ -31,7 +31,7 @@ RF-T.4 | Apagamento de tarefa | O usuário deverá ter a opção de deletar suas
 RF-T.5 | Agendamento | O usuário deverá ter a opção de agendar certa tarefa, atribuir o nome e o horário, além de decidir o período de quando cada tarefa deverá ser feita (diariamente, 1 vez/semana, 1 vez/mes, etc) ou decidir marcar os dias para quando será feita (sem ser periódicas)
 
 ---
-RF-T.6 | Personalização | O usuário deverá ter a opção de personalizar a tarefa, adicionando nome, cor, tipo da tarefa (com nome e cor para o tipo) e adicionar nota na tarefa.
+RF-T.6 | Personalização | O usuário deverá ter a opção de personalizar a tarefa, adicionando nome, cor, tipo da tarefa (com escolha entre tipos pré-definidos, ou personalização do nome do tipo) e adicionar nota na tarefa.
 
 ---
 RF-T.7 | Lembrete | O sistema deverá lembrar regularmente ao usuário (por meio de notificações) para quando ele terá que realizar certa tarefa (horário, dia da semana, mês e ano)
