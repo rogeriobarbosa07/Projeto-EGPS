@@ -73,13 +73,13 @@ ID | Requisito Funcional | Descrição Detalhada
 RF-C.1 | Central de ajuda | O sistema deverá fornecer uma central de ajuda online ao usuário
 
 ---
-RF-C.2 | Aba de seções | A central de ajuda deverá ter uma aba para visualizar as diversas seções da central
+RF-C.2 | Pesquisa | A central de ajuda deverá ter a opção de pesquisa para os usuários pesquisarem e selecionarem diretamente os tópicos desejados (dúvidas, questões, seções, etc.)
 
 ---
-RF-C.3 | Pesquisa | A central de ajuda deverá ter uma aba de pesquisa para os usuários pesquisarem e selecionarem diretamente os tópicos desejados (dúvidas, questões, seções, etc.)
+RF-C.3 | Dúvidas Frequentes | A central de ajuda deverá mostrar algumas dúvidas que ocorrem com frequência entre os usuários, com a opção do usuário acessar mais dúvidas frequentes
 
 ---
-RF-C.4 | Dúvidas Frequentes | A central de ajuda deverá ter uma aba de dúvidas que ocorrem com frequência entre os usuários
+RF-C.4 | Aba de seções | A central de ajuda deverá ter uma aba para visualizar as diversas seções da central
 
 ---
 RF-C.5 | Login e recuperação de senha | A central de ajuda deverá ter uma aba com dúvidas e questões relacionadas ao login e recuperação de senha
