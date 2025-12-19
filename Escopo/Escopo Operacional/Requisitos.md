@@ -110,13 +110,22 @@ RF-G.3 | Atualização de Informações | O sistema deve permitir a atualizaçã
 RF-G.4 | Desativação de Usuário Comum | O sistema deve permitir aos gerentes, a desativação de contas de usuários comuns, desde que haja um motivo e que avise ao usuário, o motivo da desativação.
 
 ---
-RF-G.5 | Desativação de Conta Própria | O sistema deve permitir aos usuários, a desativação de suas próprias contas
+RF-G.5 | Reativação de Usuário Comum | O sistema deve permitir aos gerentes, a reativação de contas de usuários comuns, caso algum gerente tenha desativado a conta de um usuário comum
 
 ---
-RF-G.6 | Deleção de Tarefas de Usuário Comum | O sistema deve permitir aos gerentes, a deleção de tarefas criadas por usuários comuns, desde que haja um motivo e que avise ao usuário, o motivo da deleção,
+RF-G.6 | Desativação de Conta Própria | O sistema deve permitir aos usuários, a desativação de suas próprias contas
 
 ---
-RF-G.7 | Desativação da IA para Usuário Comum | O sistema deve permitir aos gerentes, a desativação da IA para usuários comuns, desde que haja um motivo e que avise ao usuário, o motivo da desativação.
+RF-G.7 | Reativação de Conta Própria | O sistema deve permitir aos usuários, a reativação de suas próprias contas, caso o próprio usuário tenha desativado sua conta
+
+---
+RF-G.8 | Deleção de Tarefas de Usuário Comum | O sistema deve permitir aos gerentes, a deleção de tarefas criadas por usuários comuns, desde que haja um motivo e que avise ao usuário, o motivo da deleção,
+
+---
+RF-G.9 | Desativação da IA para Usuário Comum | O sistema deve permitir aos gerentes, a desativação da IA para usuários comuns, desde que haja um motivo e que avise ao usuário, o motivo da desativação.
+
+---
+RF-G.10 | Reativação da IA para Usuário Comum | O sistema deve permitir aos gerentes, a reativação da IA para usuários comuns, caso algum gerente tenha desativado a IA para um usuário comum.
 
 ### 3. Requisitos Não Funcionais
 
