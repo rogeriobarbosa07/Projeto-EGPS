@@ -1,0 +1,107 @@
+classDiagram
+    %% Módulo de Usuários
+    class Usuario {
+        <<Abstract>>
+        +int id
+        +String nome
+        +String email
+        +String senha
+        +boolean statusAtivo
+        +boolean iaAtivada
+        +login()
+        +logout()
+        +atualizarPerfil()
+        +desativarPropriaConta()
+        +criarTarefa()
+        +atualizarTarefa()
+        +apagarTarefa()
+        +agendarTarefa()
+        +editarTarefa()
+    }
+
+    class Gerente {
+        +criarGerente(Gerente novoGerente)
+        +desativarUsuario(UsuarioComum u, String motivo)
+        +reativarUsuario(UsuarioComum u)
+        +deletarTarefaUsuario(Tarefa t, String motivo)
+        +configurarIAUsuario(UsuarioComum u, boolean status)
+    }
+
+    class UsuarioComum {
+        +criarConta()
+        +reativarPropriaConta()
+        +desativarIA()
+        +reativarIA()
+    }
+
+    Usuario <|-- Gerente
+    Usuario <|-- UsuarioComum
+
+    %% Módulo de Tarefas
+    class Tarefa {
+        +int id
+        +String nome
+        +String cor
+        +String nota
+        +String linkCompartilhamento
+        +criar()
+        +editar()
+        +deletar()
+        +visualizar()
+        +compartilhar()
+    }
+
+    class Agendamento {
+        +Enum periodicidade
+        +DateTime horario
+        +List diasSemana
+        +configurarLembrete()
+    }
+
+    class TipoTarefa {
+        +String nome
+        +boolean isCustomizado
+    }
+
+    class ListaCompras {
+        +List itens
+        +adicionarItem(String item)
+        +removerItem(int id)
+    }
+
+    Usuario "1" --> "*" Tarefa : gerencia
+    Tarefa "1" *-- "1" Agendamento : possui
+    Tarefa "*" -- "1" TipoTarefa : categorizada por
+    Tarefa "1" o-- "0..1" ListaCompras : contém
+
+    %% Módulo de IA
+    class MotorIA {
+        +boolean statusServico
+        +gerarSugestaoMercado()
+        +gerarSugestaoLimpeza()
+        +preverEstoque()
+    }
+
+    class Chatbot {
+        +String ultimaPergunta
+        +responderDuvida(String texto)
+    }
+
+    Usuario "*" --> "1" MotorIA : recebe insights de
+    MotorIA ..> Chatbot : integra
+
+    %% Módulo Central de Ajuda
+    class CentralAjuda {
+        +pesquisar(String query)
+        +listarFAQs()
+        +acessarSecao(String secao)
+    }
+
+    class TopicoAjuda {
+        +String titulo
+        +String conteudo
+        +String categoria
+    }
+
+    CentralAjuda "1" *-- "*" TopicoAjuda : contém
+    CentralAjuda ..> Chatbot : oferece suporte via
