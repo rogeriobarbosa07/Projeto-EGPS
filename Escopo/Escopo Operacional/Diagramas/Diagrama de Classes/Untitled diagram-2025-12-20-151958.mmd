@@ -12,11 +12,7 @@ classDiagram
         +logout()
         +atualizarPerfil()
         +desativarPropriaConta()
-        +criarTarefa()
-        +atualizarTarefa()
-        +apagarTarefa()
-        +agendarTarefa()
-        +editarTarefa()
+        +reativarPropriaConta()
     }
 
     class Gerente {
@@ -25,13 +21,13 @@ classDiagram
         +reativarUsuario(UsuarioComum u)
         +deletarTarefaUsuario(Tarefa t, String motivo)
         +configurarIAUsuario(UsuarioComum u, boolean status)
+        +desativarIA(UsuarioComum u)
+        +reativarIA(UsuarioComum u)
     }
 
     class UsuarioComum {
-        +criarConta()
-        +reativarPropriaConta()
-        +desativarIA()
-        +reativarIA()
+        +cadastrar()
+        
     }
 
     Usuario <|-- Gerente
@@ -49,6 +45,7 @@ classDiagram
         +deletar()
         +visualizar()
         +compartilhar()
+        +agendarTarefa()
     }
 
     class Agendamento {

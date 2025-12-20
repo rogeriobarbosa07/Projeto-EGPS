@@ -1,0 +1,71 @@
+classDiagram
+    %% Instâncias de Utilizadores
+    class ana_gerente {
+        id = 1
+        nome = "Ana Silva"
+        email = "ana.admin@homefix.pt"
+        statusAtivo = true
+        iaAtivada = true
+    }
+
+    class carlos_user {
+        id = 25
+        nome = "Carlos Pereira"
+        email = "carlos@email.com"
+        statusAtivo = true
+        iaAtivada = true
+    }
+
+    %% Instâncias do Módulo de Tarefas
+    class tarefa_aspirar {
+        id = 101
+        nome = "Aspirar a Casa"
+        cor = "Azul"
+        nota = "Focar nos tapetes da sala"
+        linkCompartilhamento = "homefix.pt/t/101"
+    }
+
+    class agenda_sabado {
+        periodicidade = "Semanal"
+        horario = "10:00"
+        diasSemana = ["Sábado"]
+    }
+
+    class tipo_limpeza {
+        nome = "Manutenção Doméstica"
+        isCustomizado = false
+    }
+
+    class tarefa_supermercado {
+        id = 102
+        nome = "Compras de Mantimentos"
+        cor = "Verde"
+        nota = "Verificar stock da despensa"
+    }
+
+    class lista_compras_semana {
+        itens = ["Leite", "Detergente", "Pão", "Fruta"]
+    }
+
+    %% Instâncias de IA e Ajuda
+    class ia_sistema {
+        statusServico = true
+    }
+
+    class chatbot_suporte {
+        ultimaPergunta = "Como criar uma lista de compras?"
+    }
+
+    %% Ligações (Relacionamentos entre Objetos Específicos)
+    carlos_user --> tarefa_aspirar : gerencia
+    carlos_user --> tarefa_supermercado : gerencia
+    
+    tarefa_aspirar --> agenda_sabado : possui
+    tarefa_aspirar --> tipo_limpeza : categorizada por
+    
+    tarefa_supermercado --> lista_compras_semana : contém
+    
+    ana_gerente ..> carlos_user : supervisiona / pode desativar
+    
+    carlos_user --> ia_sistema : recebe sugestões de limpeza
+    ia_sistema ..> chatbot_suporte : gera respostas para
