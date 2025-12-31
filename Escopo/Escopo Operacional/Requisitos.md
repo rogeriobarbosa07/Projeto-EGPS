@@ -37,9 +37,10 @@ RF-T.6 | Personalização | O usuário deverá ter a opção de personalizar a t
 RF-T.7 | Lembrete | O sistema deverá lembrar regularmente ao usuário (por meio de notificações) para quando ele terá que realizar certa tarefa (horário, dia da semana, mês e ano)
 
 ---
-RF-T.8 | Lista de compras | O sistema deverá ter a opção de adicionar uma lista de compras, caso o usuário marque a opção "Compras"
+RF-T.8 | Lista de compras | O sistema deverá ter a opção de adicionar uma lista de compras, caso o usuário marque a opção "Compras", onde o usuário poderá preencher os itens da lista
 
 ---
+RF-T.9 | Itens da lista de compras | O usuário poderá preencher os itens de uma lista de compras (caso o usuário marque a opção "Compras"), adicionando obrigatoriamente o nome do item (nome pré-definido ou personalizado), e adicionando opcionalmente o nome da marca (pré-definida ou personalizada) e a quantidade (em unidades ou em gramas)
 
 ### 2.2 Módulo de IA
 ---
